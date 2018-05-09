@@ -24,6 +24,14 @@
               <url>http://IPaddress/nexus/content/repositories/Myapps/</url>
         </repository>
   </repositories>
+	<distributionManagement>
+<repository>
+<id>releases</id>
+<name>mavenproxy</name>
+<url>http://localhost:8081/#admin/repository/repositories:maven-releases</url>
+</repository>
+</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
